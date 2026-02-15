@@ -1,16 +1,20 @@
-# Hotel-Reservation-System-Project_using-C-Language
+Hotel-Reservation-System-Project_using C Language
+
 This Hotel Reservation System is a console-based application developed using the C programming language for the Computer Programming 1 course.
 It simulates a real hotel booking system where hotel staff can manage reservations, view room availability, and generate reports.
 
-# Features
+Features
 
 Admin Login System
+
 Only staff members can access the system using a password (admin).
 
 Hotel Information
+
 Displays hotel amenities, location, and room details.
 
 Room Availability
+
 Shows available rooms by category:
 
 Suit
@@ -20,6 +24,7 @@ King
 Travel
 
 Room Reservation
+
 Staff can:
 
 Enter customer details
@@ -33,6 +38,7 @@ Specify number of days and guests
 Automatically generate a bill
 
 Reservation Report
+
 Displays all stored reservations including:
 
 Customer name
@@ -46,9 +52,10 @@ Number of rooms
 Total bill
 
 File Storage
+
 Reservation data is saved in a text file (reservationData.txt) and loaded automatically on program start.
 
-# How to Run the Program
+How to Run the Program
 
 Compile the program using any C compiler (GCC / Code::Blocks / Dev-C++).
 
@@ -60,7 +67,7 @@ S → Staff login
 
 E → Exit program
 
-# Login Information
+Login Information
 
 Password: admin
 
@@ -68,7 +75,7 @@ Maximum 3 attempts allowed.
 
 After successful login, the main menu appears.
 
-# How Reservation Works
+How Reservation Works
 
 Enter customer first name and last name.
 
@@ -96,7 +103,7 @@ Total bill
 
 Reservation is saved automatically to file.
 
-# Technologies Used
+Technologies Used
 
 Language: C
 
@@ -116,7 +123,7 @@ Date validation
 
 ANSI escape codes (for UI)
 
-# Limitations
+Limitations
 
 Fixed admin password (admin)
 
@@ -128,7 +135,7 @@ File only appends data (no edit/delete)
 
 Windows-only UI (uses system("cls") and getch())
 
-# Future Improvements
+Future Improvements
 
 Add reservation cancellation
 
@@ -140,7 +147,7 @@ Use database instead of text file
 
 Convert to GUI (C++ / Java / Python)
 
-# Contributors
+Contributors
 
 Nusrath Jahan Shawon
 
