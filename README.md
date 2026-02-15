@@ -1,158 +1,152 @@
-Hotel-Reservation-System-Project_using C Language
+# Hotel Reservation System Project_using C Language
 
 This Hotel Reservation System is a console-based application developed using the C programming language for the Computer Programming 1 course.
 It simulates a real hotel booking system where hotel staff can manage reservations, view room availability, and generate reports.
 
-Features
+# Features
 
-Admin Login System
-
+-**Admin Login System**
 Only staff members can access the system using a password (admin).
 
-Hotel Information
-
+-**Hotel Information**
 Displays hotel amenities, location, and room details.
 
-Room Availability
-
+-**Room Availability**
 Shows available rooms by category:
 
-Suit
+-Suit
 
-King
+-King
 
-Travel
+-Travel
 
-Room Reservation
-
+-**Room Reservation**
 Staff can:
 
 Enter customer details
 
-Select room type
+-Select room type
 
-Choose reservation date
+-Choose reservation date
 
-Specify number of days and guests
+-Specify number of days and guests
 
-Automatically generate a bill
+-Automatically generate a bill
 
-Reservation Report
-
+-**Reservation Report**
 Displays all stored reservations including:
 
-Customer name
+-Customer name
 
-Date
+-Date
 
-Room type
+-Room type
 
-Number of rooms
+-Number of rooms
 
-Total bill
+-Total bill
 
-File Storage
-
+-**File Storage**
 Reservation data is saved in a text file (reservationData.txt) and loaded automatically on program start.
 
-How to Run the Program
+# How to Run the Program
 
-Compile the program using any C compiler (GCC / Code::Blocks / Dev-C++).
+1.Compile the program using any C compiler (GCC / Code::Blocks / Dev-C++).
 
-Run the executable file.
+2.Run the executable file.
 
-Choose:
+3.Choose:
 
-S → Staff login
+-S → Staff login
 
-E → Exit program
+-E → Exit program
 
-Login Information
+# Login Information
 
-Password: admin
+-**Password:** admin
 
-Maximum 3 attempts allowed.
+-Maximum **3 attempts** allowed.
 
 After successful login, the main menu appears.
 
-How Reservation Works
+# How Reservation Works
 
-Enter customer first name and last name.
+1.Enter customer first name and last name.
 
-Enter booking date (dd/mm/yyyy).
+2.Enter booking date (dd/mm/yyyy).
 
-Choose room type:
+3.Choose room type:
 
-S → Suit
+-S → Suit
 
-K → King
+-K → King
 
-T → Travel
+-T → Travel
 
-Enter:
+4.Enter:
 
-Number of days
+-Number of days
 
-Number of people
+-Number of people
 
-System calculates:
+5.System calculates:
 
-Required rooms
+-Required rooms
 
-Total bill
+-Total bill
 
-Reservation is saved automatically to file.
+6.Reservation is saved automatically to file.
 
-Technologies Used
+# Technologies Used
 
-Language: C
+-Language: C
 
-IDE: Code::Blocks
+-IDE: Code::Blocks
 
-Concepts Used:
+-Concepts Used:
 
-Structures
+-Structures
 
-File handling
+-File handling
 
-Conditional logic
+-Conditional logic
 
-Functions
+-Functions
 
-Date validation
+-Date validation
 
-ANSI escape codes (for UI)
+-ANSI escape codes (for UI)
 
-Limitations
+# Limitations
 
-Fixed admin password (admin)
+-Fixed admin password (admin)
 
-No reservation cancellation feature
+-No reservation cancellation feature
 
-No search by name or ID
+-No search by name or ID
 
-File only appends data (no edit/delete)
+-File only appends data (no edit/delete)
 
-Windows-only UI (uses system("cls") and getch())
+-Windows-only UI (uses system("cls") and getch())
 
-Future Improvements
+# Future Improvements
 
-Add reservation cancellation
+-Add reservation cancellation
 
-Add search by customer name or ID
+-Add search by customer name or ID
 
-Multiple staff accounts
+-Multiple staff accounts
 
-Use database instead of text file
+-Use database instead of text file
 
-Convert to GUI (C++ / Java / Python)
+-Convert to GUI (C++ / Java / Python)
 
-Contributors
+# Contributors
 
-Nusrath Jahan Shawon
+-Nusrath Jahan Shawon
 
-Sumaia Tarannoom Mahi
+-Sumaia Tarannoom Mahi
 
-Suraia Tabassoom Ruhi
+-Suraia Tabassoom Ruhi
 
-Sabiha Jannat
+-Sabiha Jannat
